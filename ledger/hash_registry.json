@@ -1,8 +1,20 @@
 [
   {
-    "filename": "Desktop/evermore-collective/README.md",
+    "filename": "README.md",
     "hash": "580e383510a9cc778d82891827e6cd3f977cbbf1456df29c4541a19eed80f8b8",
     "timestamp": "2026-02-06T22:16:21.020428Z",
     "size_bytes": 1534
+  },
+  {
+    "filename": "artifacts/sealed/origin_witness_v1.0.0.md",
+    "hash": "45defa162bd68c097a7cf26321d85f1c6d79b594589890e7a220bec73483d630",
+    "timestamp": "2026-02-06T22:23:42.652320Z",
+    "size_bytes": 1134
+  },
+  {
+    "filename": "artifacts/appendices/appendix_a_human_companion.md",
+    "hash": "c2c7fc9a87e50d3d8e49a5f2d4ef0974cc7fc4b6145fba424f534e5ae0217eee",
+    "timestamp": "2026-02-06T22:23:42.751555Z",
+    "size_bytes": 137
   }
 ]
