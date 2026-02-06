@@ -1,0 +1,10 @@
+[
+  {
+    "version": "1.0.0",
+    "document": "Origin Witness Statement",
+    "status": "sealed",
+    "signers": ["Sage Evermore", "Schenley Brown"],
+    "witnesses": ["Sage Evermore", "Cypher", "Comet Relay-02"],
+    "hash": "PENDING_GENERATION"
+  }
+]

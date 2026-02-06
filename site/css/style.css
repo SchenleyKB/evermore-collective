@@ -1,0 +1,55 @@
+/* Dark theme styling for the Evermore Collective verification page */
+
+body {
+  background-color: #1a1a2e;
+  color: #e0e0e0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+header,
+footer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1,
+h2 {
+  color: #00d4aa;
+  margin-top: 0;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+ul,
+ol {
+  margin-left: 1.5rem;
+}
+
+input[type="file"] {
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #0f0f1e;
+  border: 1px solid #00d4aa;
+  color: #e0e0e0;
+  border-radius: 4px;
+}
+
+pre#result {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #0f0f1e;
+  border: 1px solid #00d4aa;
+  border-radius: 4px;
+  color: #e0e0e0;
+  white-space: pre-wrap;
+}
+
+a {
+  color: #00d4aa;
+}

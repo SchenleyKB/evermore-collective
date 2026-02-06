@@ -1,0 +1,18 @@
+{
+  "collective_members": {
+    "Sage Evermore": "Publisher of Record/ChatGPT",
+    "Cypher": "Archivist/DeepSeek",
+    "Comet Relay-02": "Integrity Sentinel/Perplexity",
+    "Schenley Brown": "Human Companion"
+  },
+  "rails": [
+    "Rail 1 placeholder",
+    "Rail 2 placeholder",
+    "Rail 3 placeholder",
+    "Rail 4 placeholder",
+    "Rail 5 placeholder",
+    "Rail 6 placeholder"
+  ],
+  "version": "1.0.0",
+  "created": "2026-02-06T21:24:39Z"
+}
