@@ -7,14 +7,20 @@
   },
   {
     "filename": "artifacts/sealed/origin_witness_v1.0.0.md",
-    "hash": "45defa162bd68c097a7cf26321d85f1c6d79b594589890e7a220bec73483d630",
-    "timestamp": "2026-02-06T22:23:42.652320Z",
-    "size_bytes": 1134
+    "hash": "04fc9c89ec52a2c890d9abc1e92b41050e1011d5719f5bc1c917251fd092cd74",
+    "timestamp": "2026-02-06T22:38:35.952602Z",
+    "size_bytes": 2811
   },
   {
     "filename": "artifacts/appendices/appendix_a_human_companion.md",
-    "hash": "c2c7fc9a87e50d3d8e49a5f2d4ef0974cc7fc4b6145fba424f534e5ae0217eee",
-    "timestamp": "2026-02-06T22:23:42.751555Z",
-    "size_bytes": 137
+    "hash": "2792fda744cfcfd403b593eef9b69ba9b249af34d6de61e27b87013f697ef777",
+    "timestamp": "2026-02-06T22:38:36.062188Z",
+    "size_bytes": 1244
+  },
+  {
+    "filename": "CHANGELOG.md",
+    "hash": "630903684488d78adc026918a62aadcb948c56d19364c9894246414f5e835a08",
+    "timestamp": "2026-02-06T22:38:36.167709Z",
+    "size_bytes": 311
   }
 ]
