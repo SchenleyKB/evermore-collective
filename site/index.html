@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Evermore Collective - Document Integrity Verification</title>
+    <meta name="description" content="Self-sovereign document integrity verification for the Evermore Collective. Verify sealed artifacts against SHA-256 hashes anchored via OpenTimestamps." />
+    <meta property="og:title" content="Evermore Collective" />
+    <meta property="og:description" content="Document integrity verification. Sealed on-chain via OpenTimestamps." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://schenleykb.github.io/evermore-collective/" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -37,8 +42,11 @@
 
       <section id="file-upload">
         <h2>Verify a Document</h2>
-        <p>Drop a file below or select one to verify its SHA&#8209;256 hash against our registry.</p>
-        <input type="file" id="fileInput" />
+        <p>Drag a file into the box below or click to select one. Its SHA&#8209;256 hash will be checked against our registry.</p>
+        <div id="dropZone">
+          <span>Drop file here or click to browse</span>
+        </div>
+        <input type="file" id="fileInput" style="display:none" />
         <pre id="result"></pre>
       </section>
 
