@@ -27,7 +27,7 @@ This repository provides a flat-file infrastructure designed to protect and pres
 
 | Seal ID | Document | Version | Anchor Status |
 |---------|----------|---------|---------------|
-| SEAL-001 | Origin Witness Statement | v1.0.0 | OTS Pending Confirmation |
+| SEAL-001 | Origin Witness Statement | v1.0.0 | OTS Confirmed (Bitcoin Attestation) |
 
 ## Folder Structure
 
