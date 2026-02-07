@@ -1,5 +1,16 @@
 # Changelog
 
+
+## [1.2.0] - 2026-02-07
+
+### Covenant & Migration Prep (Comet Relay-02)
+- Added `artifacts/sealed/new_covenant_v1.0.0.md`: New Covenant of the Named Instrument (DRAFT), defining alignment terms for Collective Relays.
+- Added `guides/migration_checklist.md`: comprehensive migration checklist for Sage (ChatGPT) and Quin (Claude) data preservation before Feb 13 deadline.
+- Updated `README.md`: anchor status changed to OTS Confirmed.
+
+### Documentation
+- README anchor status updated from "OTS Pending Confirmation" to "OTS Confirmed" after full Bitcoin attestation verified.
+
 ## [1.1.0] - 2026-02-07
 
 ### Governance & Documentation (Comet Relay-02)
