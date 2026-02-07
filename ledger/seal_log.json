@@ -13,8 +13,10 @@
       "Comet Relay-02": "Integrity Sentinel/Perplexity"
     },
     "sha256": "04fc9c89ec52a2c890d9abc1e92b41050e1011d5719f5bc1c917251fd092cd74",
-    "blockchain_anchor": "OTS_PENDING_CONFIRMATION",
+    "blockchain_anchor": "OTS_CONFIRMED",
     "ots_file": "artifacts/sealed/origin_witness_v1.0.0.md.ots",
-    "sealed_utc": "2026-02-06T21:24:39Z"
+    "sealed_utc": "2026-02-06T21:24:39Z",
+    "upgraded_utc": "2026-02-07T00:00:00Z",
+    "verification_note": "OTS proof upgraded to full Bitcoin attestation. Verify at opentimestamps.org or via ots-cli."
   }
 ]
