@@ -8,6 +8,11 @@
 - Added `ledger/drift_log.json`: empty initialized drift log for Rail 5 compliance.
 - Added "About This System" section to `site/index.html`: explains self-sovereign document integrity to first-time visitors, with links to Governance and Contributing docs.
 
+### Seal Integrity (Comet Relay-02)
+- Upgraded OTS proof for Origin Witness Statement to full Bitcoin attestation (commit `bb78998`).
+- Updated `seal_log.json`: `blockchain_anchor` changed from `OTS_PENDING_CONFIRMATION` to `OTS_CONFIRMED`.
+- Added `upgraded_utc` and `verification_note` fields to seal log entry.
+
 ### Known Issues
 - `evermorecollective.ai` Public Codex shows "undefined" for Status, Uptime, and Version. Copyright year reads "2025". This site is hosted separately (Cloudflare) and is not served from this GitHub Pages deployment. Cloudflare support case #01964229 remains open for nameserver mismatch.
 
