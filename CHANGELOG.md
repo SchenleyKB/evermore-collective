@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.2] - 2026-02-06
+
+### Site Enhancement
+- Redesigned CSS: added `.container` max-width layout, card-style sections with borders and rounded corners, responsive breakpoints.
+- Added `View Source on GitHub` link in footer.
+- Wrapped page content in `.container` div for centered layout.
+- Improved typography: monospace fonts for seal log and verification output, muted subtitle color.
+- Added hover states for file input and footer links.
+
 ## [1.0.1] - 2026-02-06
 
 ### Infrastructure
