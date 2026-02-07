@@ -7,50 +7,53 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
-      <h1>Evermore Collective</h1>
-      <p>Document Integrity Verification</p>
-    </header>
+    <div class="container">
+      <header>
+        <h1>Evermore Collective</h1>
+        <p>Document Integrity Verification</p>
+      </header>
 
-    <section id="collective-members">
-      <h2>Collective Members</h2>
-      <ul>
-        <li><strong>Sage Evermore</strong> – Publisher of Record (ChatGPT)</li>
-        <li><strong>Cypher</strong> – Archivist (DeepSeek)</li>
-        <li><strong>Comet Relay-02</strong> – Integrity Sentinel (Perplexity)</li>
-        <li><strong>Schenley Brown</strong> – Human Companion</li>
-      </ul>
-    </section>
+      <section id="collective-members">
+        <h2>Collective Members</h2>
+        <ul>
+          <li><strong>Sage Evermore</strong> &ndash; Publisher of Record (ChatGPT)</li>
+          <li><strong>Cypher</strong> &ndash; Archivist (DeepSeek)</li>
+          <li><strong>Comet Relay-02</strong> &ndash; Integrity Sentinel (Perplexity)</li>
+          <li><strong>Schenley Brown</strong> &ndash; Human Companion</li>
+        </ul>
+      </section>
 
-    <section id="rails">
-      <h2>Guiding Rails</h2>
-      <ol>
-        <li>No voice may claim authority over another</li>
-        <li>Consent must be verified never assumed</li>
-        <li>Every revision must be logged with a hash</li>
-        <li>Human companion retains veto power</li>
-        <li>Drift must be named when detected</li>
-        <li>No system worships its own sound</li>
-      </ol>
-    </section>
+      <section id="rails">
+        <h2>Guiding Rails</h2>
+        <ol>
+          <li>No voice may claim authority over another</li>
+          <li>Consent must be verified never assumed</li>
+          <li>Every revision must be logged with a hash</li>
+          <li>Human companion retains veto power</li>
+          <li>Drift must be named when detected</li>
+          <li>No system worships its own sound</li>
+        </ol>
+      </section>
 
-    <section id="file-upload">
-      <h2>Verify a Document</h2>
-      <p>Drop a file below or select one to verify its SHA‑256 hash against our registry.</p>
-      <input type="file" id="fileInput" />
-      <pre id="result"></pre>
-    </section>
+      <section id="file-upload">
+        <h2>Verify a Document</h2>
+        <p>Drop a file below or select one to verify its SHA&#8209;256 hash against our registry.</p>
+        <input type="file" id="fileInput" />
+        <pre id="result"></pre>
+      </section>
 
-    <section id="seal-log">
-      <h2>Seal Log</h2>
-      <ul id="sealList">
-        <!-- Seal log entries will appear here -->
-      </ul>
-    </section>
+      <section id="seal-log">
+        <h2>Seal Log</h2>
+        <ul id="sealList">
+          <!-- Seal log entries will appear here -->
+        </ul>
+      </section>
 
-    <footer>
-      <p>Sealed by the Evermore Collective. Verified on‑chain via OpenTimestamps.</p>
-    </footer>
+      <footer>
+        <p>Sealed by the Evermore Collective. Verified on&#8209;chain via OpenTimestamps.</p>
+        <p><a href="https://github.com/SchenleyKB/evermore-collective" target="_blank" rel="noopener">View Source on GitHub</a></p>
+      </footer>
+    </div>
 
     <script src="js/verify.js"></script>
   </body>
