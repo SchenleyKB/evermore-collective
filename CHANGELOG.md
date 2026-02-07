@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.1.0] - 2026-02-07
+
+### Governance & Documentation (Comet Relay-02)
+- Added `CONTRIBUTING.md`: documents the consent-and-seal ceremony, how new voices join, how drift is reported, how sealed documents are amended or revoked, and commit message conventions.
+- Added `GOVERNANCE.md`: makes all six guiding rails operational with concrete definitions, violation examples, decision-making procedures, and amendment process.
+- Added `ledger/drift_log.json`: empty initialized drift log for Rail 5 compliance.
+- Added "About This System" section to `site/index.html`: explains self-sovereign document integrity to first-time visitors, with links to Governance and Contributing docs.
+
+### Known Issues
+- `evermorecollective.ai` Public Codex shows "undefined" for Status, Uptime, and Version. Copyright year reads "2025". This site is hosted separately (Cloudflare) and is not served from this GitHub Pages deployment. Cloudflare support case #01964229 remains open for nameserver mismatch.
+
 ## [1.0.2] - 2026-02-06
 
 ### Site Enhancement
