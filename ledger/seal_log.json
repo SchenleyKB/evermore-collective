@@ -39,9 +39,10 @@
     "filing_date": "2026-02-24",
     "filing_type": "Regular Application — Small Entity",
     "claim_count": 38,
-    "blockchain_anchor": "OTS_PENDING",
+    "blockchain_anchor": "OTS_SUBMITTED",
     "ots_file": "artifacts/sealed/patent_filing_master_2026-02-24.ots",
     "sealed_utc": "2026-02-25T00:00:00Z",
-    "verification_note": "SHA-256 hash of SCHENLEY.BROWN_FullPatent_Filed02.24.26.pdf — the actual PDF submitted to CIPO. Full text withheld pending CIPO publication (~18 months). Hash proves possession of exact filed document on filing date. OTS anchoring pending manual submission at opentimestamps.org."
+    "anchor_submitted_utc": "2026-02-25T12:21:48Z",
+    "verification_note": "SHA-256 hash of SCHENLEY.BROWN_FullPatent_Filed02.24.26.pdf — the actual PDF submitted to CIPO. OTS proof submitted to Bitcoin blockchain 2026-02-25. Full Bitcoin attestation available after next block confirmation. Verify at opentimestamps.org or via ots-cli. Full text withheld pending CIPO publication (~18 months)."
   }
 ]
