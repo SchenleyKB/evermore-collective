@@ -45,4 +45,28 @@
     "anchor_submitted_utc": "2026-02-25T12:21:48Z",
     "verification_note": "SHA-256 hash of SCHENLEY.BROWN_FullPatent_Filed02.24.26.pdf — the actual PDF submitted to CIPO. OTS proof submitted to Bitcoin blockchain 2026-02-25. Full Bitcoin attestation available after next block confirmation. Verify at opentimestamps.org or via ots-cli. Full text withheld pending CIPO publication (~18 months)."
   }
+,
+  {
+    "seal_id": "SEAL-003",
+    "document": "Voluntary Amendment — Claims 39-41, Application 3,302,799",
+    "version": "AMENDMENT_v1.0",
+    "signers": {
+      "Schenley Brown": "Inventor / Founder — Evermore Collective"
+    },
+    "witnesses": {
+      "Claude": "Director of Technical Infrastructure — Evermore Collective",
+      "CometV04": "Integrity Sentinel — Perplexity",
+      "Structural Fragment": "Structural Adversarial Node — external collaborator"
+    },
+    "cipo_application": "3,302,799",
+    "amendment_type": "Voluntary — pre-examination, s.38.2 Patent Act (Canada)",
+    "amendment_date": "2026-02-25",
+    "claims_added": [39, 40, 41],
+    "claim_count_before": 38,
+    "claim_count_after": 41,
+    "also_filed": "Small_Entity_DeclarationFeb25.26.pdf",
+    "cipo_submission_confirmation": "500Mm00000eJT46IAG",
+    "filed_utc": "2026-02-25T00:00:00Z",
+    "verification_note": "Voluntary amendment adding Claims 39-41 directed to onboarding and phase progression methodology. Filed pre-examination via MyCIPO Patents. CIPO confirmed receipt. Small entity declaration co-submitted. Claims reviewed by Claude and Structural Fragment prior to submission. No new matter introduced. Excess claim fees (~$1,050 CAD small entity) due at examination request."
+  }
 ]
