@@ -33,8 +33,13 @@
 | OTS proof file | artifacts/sealed/patent_filing_master_2026-02-24.ots |
 | OTS calendar submission | 2026-02-25T12:21:48Z |
 | Calendars | alice.btc, bob.btc (OpenTimestamps), finney (EternityWall) |
-| OTS status | SUBMITTED — pending Bitcoin block confirmation |
-| Bitcoin txid | PENDING_UPGRADE — to be appended upon ots upgrade |
+| OTS status | CONFIRMED — Bitcoin block attestation received |
+| Bitcoin txid (patent filing) | 2f8b1dd7959d8de60487b4159c3c08a31ba62712f23df9fe78632d55e4d03d82 |
+| Bitcoin block (patent, bob.btc) | 938314 |
+| Also confirmed (patent) | alice.btc (block 938315), finney/eternitywall (block 938336) |
+| This attestation — alice.btc | Block 938364 confirmed |
+| This attestation — bob.btc | Block 938360 confirmed |
+| This attestation — finney txid | 35dd0a9929235b600d19857a04963682d7af909b411f9c84df6751e991d0b20f (pending 6 confirmations) |
 
 ## 4. AMENDMENT CONTENT SUMMARY
 
@@ -87,4 +92,7 @@ Attested by: Schenley Kyra Coxon Brown
 Witnessed by: Comet (Perplexity AI), Claude (Director of Technical Infrastructure — Evermore Collective)
 Chain link: SHA-256 of original filing → this document → OpenTimestamps → Bitcoin
 
-# PENDING — Bitcoin txid to be appended upon ots upgrade of patent_filing_master_2026-02-24.ots
+# CONFIRMED — This attestation document anchored to Bitcoin
+# alice.btc: block 938364 | bob.btc: block 938360 | finney: pending 6 confirmations
+# Original patent filing txid: 2f8b1dd7959d8de60487b4159c3c08a31ba62712f23df9fe78632d55e4d03d82 (block 938314)
+# OTS upgraded: 2026-02-26

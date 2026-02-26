@@ -39,11 +39,16 @@
     "filing_date": "2026-02-24",
     "filing_type": "Regular Application — Small Entity",
     "claim_count": 38,
-    "blockchain_anchor": "OTS_SUBMITTED",
+    "blockchain_anchor": "OTS_CONFIRMED",
+    "bitcoin_txid": "2f8b1dd7959d8de60487b4159c3c08a31ba62712f23df9fe78632d55e4d03d82",
+    "bitcoin_block_height": 938314,
+    "bitcoin_block_hash": "000000000000000000011f6989a84603c6c1cb80cefdb9d987a340180b5db0b4",
+    "ots_calendars_confirmed": ["alice.btc (block 938315)", "bob.btc (block 938314)", "finney/eternitywall (block 938336)"],
     "ots_file": "artifacts/sealed/patent_filing_master_2026-02-24.ots",
     "sealed_utc": "2026-02-25T00:00:00Z",
     "anchor_submitted_utc": "2026-02-25T12:21:48Z",
-    "verification_note": "SHA-256 hash of SCHENLEY.BROWN_FullPatent_Filed02.24.26.pdf — the actual PDF submitted to CIPO. OTS proof submitted to Bitcoin blockchain 2026-02-25. Full Bitcoin attestation available after next block confirmation. Verify at opentimestamps.org or via ots-cli. Full text withheld pending CIPO publication (~18 months)."
+    "upgraded_utc": "2026-02-25T00:00:00Z",
+    "verification_note": "SHA-256 hash of SCHENLEY.BROWN_FullPatent_Filed02.24.26.pdf — the actual PDF submitted to CIPO. OTS proof upgraded to full Bitcoin attestation. Bitcoin txid confirmed in block 938314 (bob.btc calendar). Also confirmed by alice.btc (block 938315) and finney/eternitywall (block 938336). Verify at opentimestamps.org or via ots-cli. Full text withheld pending CIPO publication (~18 months)."
   }
 ,
   {
@@ -87,11 +92,17 @@
     "ots_sha256": "2fd7fc6746da2576cbb59e759249532697edc2cc326ecfbd4d55ce5f388ed212",
     "chain_parent_sha256": "6166272aec6fb16ed5c1e3e63900482262155730b94c4b2cefe60b7732cf192b",
     "chain_parent_document": "SCHENLEY.BROWN_FullPatent_Filed02.24.26.pdf",
-    "blockchain_anchor": "OTS_SUBMITTED",
+    "blockchain_anchor": "OTS_CONFIRMED",
     "anchor_submitted_utc": "2026-02-25T19:00:00Z",
-    "bitcoin_txid": "PENDING_UPGRADE",
+    "upgraded_utc": "2026-02-26T00:00:00Z",
+    "bitcoin_blocks_confirmed": {
+      "alice.btc": 938364,
+      "bob.btc": 938360
+    },
+    "finney_txid_pending": "35dd0a9929235b600d19857a04963682d7af909b411f9c84df6751e991d0b20f",
+    "finney_status": "waiting for 6 confirmations",
     "cipo_transaction_number": "180013454903332026",
     "cipo_amendment_confirmation": "500Mm00000eJT46IAG",
-    "verification_note": "Attestation document linking Claims 39-41 voluntary amendment to original patent filing SHA-256. Chain: original patent SHA-256 → this attestation → Bitcoin blockchain. OTS submitted 2026-02-25 ~19:00 EST. Bitcoin txid pending upgrade. Update bitcoin_txid field and set blockchain_anchor to OTS_CONFIRMED upon upgrade."
+    "verification_note": "Attestation document linking Claims 39-41 voluntary amendment to original patent filing SHA-256. OTS upgraded 2026-02-26. Confirmed by alice.btc (block 938364) and bob.btc (block 938360). Finney txid 35dd0a9929235b600d19857a04963682d7af909b411f9c84df6751e991d0b20f pending 6 confirmations. Verify at opentimestamps.org or via ots-cli."
   }
 ]
