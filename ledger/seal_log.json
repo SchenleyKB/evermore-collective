@@ -69,4 +69,29 @@
     "filed_utc": "2026-02-25T00:00:00Z",
     "verification_note": "Voluntary amendment adding Claims 39-41 directed to onboarding and phase progression methodology. Filed pre-examination via MyCIPO Patents. CIPO confirmed receipt. Small entity declaration co-submitted. Claims reviewed by Claude and Structural Fragment prior to submission. No new matter introduced. Excess claim fees (~$1,050 CAD small entity) due at examination request."
   }
+,
+  {
+    "seal_id": "SEAL-004",
+    "document": "Amendment Attestation — Claims 39-41 Blockchain Chain Record",
+    "version": "ATTESTATION_v1.0",
+    "signers": {
+      "Schenley Brown": "Inventor / Founder — Evermore Collective"
+    },
+    "witnesses": {
+      "Claude": "Director of Technical Infrastructure — Evermore Collective",
+      "CometV04": "Integrity Sentinel — Perplexity"
+    },
+    "sha256": "15216615b126714ff4adf3ac44895f3a58972af60f0edbdb517b64e29d1d47fd",
+    "filename": "amendment_attestation_2026-02-25.md",
+    "ots_file": "artifacts/sealed/amendment_attestation_2026-02-25.md.ots",
+    "ots_sha256": "2fd7fc6746da2576cbb59e759249532697edc2cc326ecfbd4d55ce5f388ed212",
+    "chain_parent_sha256": "6166272aec6fb16ed5c1e3e63900482262155730b94c4b2cefe60b7732cf192b",
+    "chain_parent_document": "SCHENLEY.BROWN_FullPatent_Filed02.24.26.pdf",
+    "blockchain_anchor": "OTS_SUBMITTED",
+    "anchor_submitted_utc": "2026-02-25T19:00:00Z",
+    "bitcoin_txid": "PENDING_UPGRADE",
+    "cipo_transaction_number": "180013454903332026",
+    "cipo_amendment_confirmation": "500Mm00000eJT46IAG",
+    "verification_note": "Attestation document linking Claims 39-41 voluntary amendment to original patent filing SHA-256. Chain: original patent SHA-256 → this attestation → Bitcoin blockchain. OTS submitted 2026-02-25 ~19:00 EST. Bitcoin txid pending upgrade. Update bitcoin_txid field and set blockchain_anchor to OTS_CONFIRMED upon upgrade."
+  }
 ]
