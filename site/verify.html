@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Verify — Evermore Collective</title>
+  <meta name="description" content="Verify sealed Evermore Collective documents against SHA-256 hashes anchored to the Bitcoin blockchain via OpenTimestamps." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .verify-page { padding: 100px 24px 80px; }
+    .verify-page-inner { max-width: 800px; margin: 0 auto; }
+    .verify-page h1 { font-family: var(--font-head); font-size: 2.2rem; color: var(--white); margin-bottom: 8px; }
+    .verify-page .subtitle { color: var(--muted); margin-bottom: 48px; }
+    .verify-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 32px; margin-bottom: 28px; }
+    .verify-card h2 { font-family: var(--font-head); font-size: 1.3rem; color: var(--teal); margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid var(--border); }
+    .verify-card p { color: var(--muted); font-size: 0.95rem; margin-bottom: 16px; }
+    #dropZone { border: 2px dashed var(--border); border-radius: 8px; padding: 40px; text-align: center; cursor: pointer; transition: border-color 0.2s, background 0.2s; color: var(--muted); font-size: 0.95rem; }
+    #dropZone:hover, #dropZone.dragover { border-color: var(--teal); background: rgba(0,212,170,0.04); }
+    #fileInput { display: none; }
+    pre#result { margin-top: 16px; padding: 16px; background: #0a0a18; border: 1px solid var(--border); border-radius: 6px; color: var(--text); white-space: pre-wrap; font-family: 'Cascadia Code','Fira Code',Consolas,monospace; font-size: 0.85rem; min-height: 40px; }
+    #seal-log li { font-family: 'Cascadia Code','Fira Code',Consolas,monospace; font-size: 0.85rem; color: var(--muted); padding: 8px 0; border-bottom: 1px solid var(--border); }
+    #seal-log li:last-child { border-bottom: none; }
+    .back-link { display: inline-block; margin-bottom: 32px; color: var(--muted); font-size: 0.9rem; }
+    .back-link:hover { color: var(--teal); }
+  </style>
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="/" class="nav-brand">Evermore Collective</a>
+      <div class="nav-links">
+        <a href="/#books">Books</a>
+        <a href="/#patent">Patent</a>
+        <a href="verify.html" style="color:var(--teal)">Verify</a>
+        <a href="https://github.com/SchenleyKB/evermore-collective" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="verify-page">
+    <div class="verify-page-inner">
+      <a href="/" class="back-link">← Back to home</a>
+      <h1>Document Integrity Verification</h1>
+      <p class="subtitle">Every sealed artifact is anchored to the Bitcoin blockchain via <a href="https://opentimestamps.org" target="_blank" rel="noopener">OpenTimestamps</a>. Drop any document below to verify its authenticity without trusting us — trust the chain.</p>
+
+      <div class="verify-card">
+        <h2>Verify a Document</h2>
+        <p>Drag a file into the box below or click to select one. Its SHA&#8209;256 hash will be checked against the sealed registry.</p>
+        <div id="dropZone">Drop file here or click to browse</div>
+        <input type="file" id="fileInput" />
+        <pre id="result"></pre>
+      </div>
+
+      <div class="verify-card">
+        <h2>Seal Log</h2>
+        <p>All sealed artifacts, in chronological order.</p>
+        <ul id="sealList"></ul>
+      </div>
+
+      <div class="verify-card">
+        <h2>About This System</h2>
+        <p>When a document is sealed here, its SHA-256 digital fingerprint is anchored to the Bitcoin blockchain via OpenTimestamps. The seal is permanent and tamper-evident — if even one byte changes, the hash no longer matches.</p>
+        <p>Governance: <a href="https://github.com/SchenleyKB/evermore-collective/blob/main/GOVERNANCE.md" target="_blank" rel="noopener">GOVERNANCE.md</a> · Source: <a href="https://github.com/SchenleyKB/evermore-collective" target="_blank" rel="noopener">GitHub</a></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/verify.js"></script>
+</body>
+</html>
